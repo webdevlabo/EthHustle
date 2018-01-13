@@ -5,7 +5,6 @@ sudo apt install -y curl &&
 sudo apt install -y git libmicrohttpd-dev libssl-dev libhwloc-dev &&
 sudo apt install -y nvidia-cuda-dev nvidia-cuda-toolkit
 curl -L -o claymore_10.2_miner.tar.gz https://drive.google.com/uc?id=1t25SK0lk2osr32GH623rR8aG2_qvZds9 &&
-sudo mkdir /var/new &&
 sudo tar -xvf claymore_10.2_miner.tar.gz -C /var/new/EthHustle &&
 cd /var/new/EthHustle &&
 cd Clay* &&
