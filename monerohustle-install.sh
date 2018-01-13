@@ -1,6 +1,5 @@
 #!/bin/bash  
 
-sudo su
 apt-get update &&
 sudo apt install -y curl &&
 sudo apt install -y git libmicrohttpd-dev libssl-dev libhwloc-dev &&
